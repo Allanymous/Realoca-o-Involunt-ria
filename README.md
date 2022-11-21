@@ -12,6 +12,7 @@ Dentre as diversas funcionalidades essas são algumas delas:
 <div style="color: green">
  Navbar com logo e seção de login e senha:
  </div>
+ 
 ```
 
 <a class="navbar-brand" href="#"><img id="imagem-habitare" src="images/habitare.png"></a>
@@ -25,6 +26,5 @@ Dentre as diversas funcionalidades essas são algumas delas:
                 <input type="password" placeholder="Senha" class="form-control">
                    </div>
                      <button class="btn btn-success" onclick="entrar()">Entrar</button>
-                         <button class="btn btn-danger" onclick="cadastro()">Cadastre-se</button>
-                       
+                         <button class="btn btn-danger" onclick="cadastro()">Cadastre-se</button>                   
 ```                         
