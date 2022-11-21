@@ -26,3 +26,4 @@ Dentre as diversas funcionalidades essas são algumas delas:
                          <button class="btn btn-danger" onclick="cadastro()">Cadastre-se</button>
                        
 ```                         
+</p>
