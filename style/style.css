@@ -1,0 +1,47 @@
+#habitare{
+    background-color: yellow;
+    border-radius: 15px;
+    font-weight: bold;
+    color: black;
+ }
+ #inicio{
+    background-image: url(../images/depositphotos_75371805-stock-photo-engineer-holding-yellow-helmet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    opacity: 0.900;
+ }
+ #inicio1{
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top: 30px;
+ }
+ #inicio2{
+   color: black;
+   text-align: center;
+   font-weight: bold;
+}
+ #imagem-habitare{
+    height: 50px;
+    width: 50px;
+ }
+ #carousel{
+    height: 650px;
+    width: 1300px;
+ }
+#image-footer{
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   height: 500px;
+   width: 100%;
+ }
+ #teste
+ {
+   color: red;
+   background-color: black;
+   border-radius: 20px;
+   text-align: center;
+ }
