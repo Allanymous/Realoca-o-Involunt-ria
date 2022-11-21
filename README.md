@@ -10,8 +10,8 @@ Projeto desenvolvido em Html, Css, Javascript e Bootstrap com finalidade de ensi
 Dentre as diversas funcionalidades essas são algumas delas:
 
 ```Navbar com logo, seção de login e senha
-<p><span style="color:green">
-<a class="navbar-brand" href="#"><img id="imagem-habitare" src="images/habitare.png"></a>
+<p style="color:green">
+'<a class="navbar-brand" href="#"><img id="imagem-habitare" src="images/habitare.png"></a>
  </div>
    <div id="navbar" class="navbar-collapse collapse">
      <form class="navbar-form navbar-right">
@@ -22,7 +22,6 @@ Dentre as diversas funcionalidades essas são algumas delas:
                 <input type="password" placeholder="Senha" class="form-control">
                    </div>
                      <button class="btn btn-success" onclick="entrar()">Entrar</button>
-                         <button class="btn btn-danger" onclick="cadastro()">Cadastre-se</button>  
-</span>
-</p>
+                         <button class="btn btn-danger" onclick="cadastro()">Cadastre-se</button>' 
+                         </p>
 ```                         
