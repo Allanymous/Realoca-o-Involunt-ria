@@ -10,7 +10,7 @@ Projeto desenvolvido em Html, Css, Javascript e Bootstrap com finalidade de ensi
 Dentre as diversas funcionalidades essas são algumas delas:
 
 Navbar com logo e seção de login e senha:
-
+<span style="color: red;">text</span>
  
 ```
 <a class="navbar-brand" href="#"><img id="imagem-habitare" src="images/habitare.png"></a>
