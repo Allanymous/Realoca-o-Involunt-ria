@@ -1,4 +1,4 @@
-<h1 align="center">Realocacao-Involuntaria</h1>
+<h1 align="center">Realocação-Involuntaria</h1>
 Projeto desenvolvido em Html, Css, Javascript e Bootstrap com finalidade de ensino e exemplos de funcionalidades das 4 linguagens de programação citadas anteriormente.
 
 <h1>Descrição</h1>
