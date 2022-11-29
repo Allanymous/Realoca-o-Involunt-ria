@@ -43,7 +43,7 @@ Formulário para envio de informações do usúario para a empresa:
           var cep = document.getElementById("cep");
           var sexo = document.getElementById("sexo");
           var newsletter = document.getElementById("newsletter").checked;
-
+___________________________________________________________________________________
           // verificar se o nome está vazio
           if (nome.value == "") {
             alert("Nome não informado");
@@ -53,36 +53,24 @@ Formulário para envio de informações do usúario para a empresa:
             // retorna a função e não olha as outras linhas
             return;
           }
-          if (sobrenome.value == "") {
-            alert("Sobrenome não informado");
-            sobrenome.focus();
-            return;
-          }
-          if (email.value == "") {
-            alert("E-mail não informado");
-            email.focus();
-            return;
-          }
-          if (senha.value == "") {
-            alert("Senha não informada");
-            senha.focus();
-            return;
-          }
-          if (telefone.value == "") {
-            alert("Telefone não informado");
-            telefone.focus();
-            return;
-          }
-          if (cep.value == "") {
-            alert("CEP não informado");
-            cep.focus();
-            return;
-          }
-          if (sexo.value == "") {
-            alert("CEP não informado");
-            sexo.focus();
-            return;
-          }
+          if (sobrenome.value == "") {          | if (email.value == "") {
+            alert("Sobrenome não informado");   |  alert("E-mail não informado");
+            sobrenome.focus();                  |  email.focus();
+            return;                             |  return;
+          }                                     | }
+          
+          if (senha.value == "") {              | if (telefone.value == "") {
+            alert("Senha não informada");       |  alert("Telefone não informado");
+            senha.focus();                      |  telefone.focus();
+            return;                             |  return;
+          }                                     | }
+          
+          if (cep.value == "") {                | if (sexo.value == "") {
+            alert("CEP não informado");         |   alert("Sexo não informado");
+            cep.focus();                        |   sexo.focus();
+            return;                             |   return;
+          }                                     | }
+
           alert("Formulário enviado!");
           // envia o formulário
           //formulario.submit();
